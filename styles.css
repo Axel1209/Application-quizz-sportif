@@ -1,0 +1,83 @@
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  background: #f7f8fb;
+}
+
+header {
+  background: #0b6efd;
+  color: white;
+  padding: 1rem;
+}
+
+main {
+  padding: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#controls {
+  margin-bottom: 1rem;
+  display:flex;
+  gap:1rem;
+  align-items:center;
+}
+
+#bracket {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  min-height: 120px;
+}
+
+.round {
+  display:flex;
+  gap:0.5rem;
+  flex-wrap:wrap;
+}
+
+.player {
+  background:#eef3ff;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  margin: 0.25rem;
+}
+
+.player.you {
+  background:#d1ffd7;
+  font-weight:600;
+}
+
+#matchArea {
+  background:#fff;
+  padding:1rem;
+  border-radius:8px;
+  margin-bottom:1rem;
+}
+
+.hidden { display:none; }
+
+#answers button {
+  display:block;
+  margin: 0.4rem 0;
+  padding: 0.5rem 0.75rem;
+  width:100%;
+  text-align:left;
+}
+
+#history {
+  background:#fff;
+  padding:1rem;
+  border-radius:8px;
+  list-style:none;
+}
+
+footer {
+  text-align:center;
+  padding:1rem;
+  font-size:0.9rem;
+  color:#666;
+}
