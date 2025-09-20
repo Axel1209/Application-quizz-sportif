@@ -1,0 +1,7 @@
+[
+  {"id":1,"difficulty":1,"question":"Quel tournoi se joue sur terre battue ?","choices":["Wimbledon","Roland-Garros","US Open","Australian Open"],"answer":1},
+  {"id":2,"difficulty":1,"question":"Combien de sets gagnants pour un match masculin en Grand Chelem ?","choices":["1","3","5","7"],"answer":2},
+  {"id":3,"difficulty":2,"question":"Quel joueur détient le plus de titres en simple en Grand Chelem (hommes) ?","choices":["Roger Federer","Rafael Nadal","Novak Djokovic","Pete Sampras"],"answer":1},
+  {"id":4,"difficulty":2,"question":"Sur quelle surface se joue Wimbledon ?","choices":["Terre battue","Gazon","Dur","Indoor"],"answer":1},
+  {"id":5,"difficulty":3,"question":"Quel est le matériau principal des balles de tennis modernes ?","choices":["Caoutchouc recouvert de feutre","Cuir","Plastique","Métal"],"answer":0}
+]
