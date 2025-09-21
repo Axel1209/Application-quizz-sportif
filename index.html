@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Simulateur Tournoi Tennis - MVP</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Simulateur Tournoi Tennis</h1>
+    <p>Choisis un tournoi puis un joueur à suivre. Tu répondras uniquement pour ce joueur ; si il/elle perd, le jeu s'arrête.</p>
+  </header>
+
+  <main>
+    <section id="controls">
+      <label>
+        Tournoi :
+        <select id="tournamentSelect">
+          <option value="tennis-simple">Tournoi de tennis (prototype)</option>
+        </select>
+      </label>
+
+      <label>
+        Joueurs (8/16/32) :
+        <select id="playersCount">
+          <option value="8">8</option>
+          <option value="16">16</option>
+          <option value="32">32</option>
+        </select>
+      </label>
+
+      <label>
+        Choisir joueur à suivre :
+        <select id="playerSelect"></select>
+      </label>
+
+      <button id="startBtn">Démarrer le tournoi</button>
+    </section>
+
+    <section id="bracket">
+      <!-- Bracket rendu dynamiquement -->
+    </section>
+
+    <section id="matchArea" class="hidden">
+      <h2 id="matchTitle"></h2>
+      <div id="questionArea">
+        <p id="questionText"></p>
+        <div id="answers"></div>
+        <p id="progress"></p>
+      </div>
+      <div id="matchResult" class="hidden"></div>
+      <button id="nextMatchBtn" class="hidden">Continuer</button>
+    </section>
+
+    <section id="log">
+      <h3>Historique</h3>
+      <ul id="history"></ul>
+    </section>
+  </main>
+
+  <footer>
+    Prototype MVP — adapte les questions et la logique CPU selon tes besoins.
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
